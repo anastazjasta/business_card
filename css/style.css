@@ -5,5 +5,66 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+body {
+  background: #2C2141;
+  min-height: 100vh;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
+.card {
+  background: #F8F8F8;
+  padding: 32 px;
+  border-radius: 16px;
+  max-width: 624px;
+  padding: 32px;
+}
 
+.person {
+  display: flex;
+  align-items: flex-start;
+}
+
+.person__description {
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 32px;
+}
+
+.person_header {
+  margin-bottom: 32 px;
+}
+
+.person__name {
+  margin: 0;
+  font-weight: normal;
+  font-size: 36px;
+}
+
+.person__photo {
+  width: 148px;
+  height: 148px;
+  border-radius: 74px;
+  margin-right: 32px;
+}
+
+.person__position {
+  margin: 0;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 18px;
+  color: #545454;
+}
+
+.person__special {
+  font-weight: normal;
+  color: #ED6D05;
+}
+
+.person__link {
+  text-decoration: none;
+  color: #E20613;
+}
